@@ -10,11 +10,11 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Set Up
 
-- [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
-- [ ] Open the assignment in Canvas and click on the "Set up git" option.
-- [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submission.
+- [x] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
+- [x] Open the assignment in Canvas and click on the "Set up git" option.
+- [x] Follow instructions to set up Codegrade's Webhook and Deploy Key.
+- [x] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+- [x] Check to see that Codegrade has accepted your git submission.
 
 For a step-by-step on setting up Codegrade see [this guide.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374)
 
@@ -39,8 +39,8 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 **Steps Required for MVP:**
 
 - [x] Steps 1 and 2 are explained inside the `src/components/header.js` file.
-- [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
-- [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
+- [x] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
+- [x] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
 
@@ -73,11 +73,11 @@ Events are the way we have in Javascript to control the actions of visitors and 
 
 
 3. What is an event listener?
-Register an event to a specific object. The specific Object can be a simple element in a file, the same document, a window or an XMLHttpRequest.
+It register an event to a specific object. The specific Object can be a simple element in a file, the same document, a window or an XMLHttpRequest.
 
 
 4. Why would we convert a NodeList into an Array?
-The NodeList is distinct from Array for performance reasons: browsers can implement NodeList under the hood however they like. Presumably, this means that queries like document.querySelectorAll can return a lightly wrapped internal data structure instead of marshalling to a JavaScript array. This could save a lot of copying and makes it easier to maintain a "live" NodeList that updates as the DOM changes.
+The NodeList is distinct from Array for performance reasons, browsers can implement NodeList under the hood however they like. Presumably, this means that queries like document.querySelectorAll can return a lightly wrapped internal data structure instead of marshalling to a JavaScript array. This could save a lot of copying and makes it easier to maintain a "live" NodeList that updates as the DOM changes.
 
 
 5. What is a component?
