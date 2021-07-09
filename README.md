@@ -65,7 +65,22 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+The DOM is the structure of objects that the browser generates when a document is loaded and can be altered using Javascript to dynamically change the contents and appearance of the page.
+
+
 2. What is an event?
+Events are the way we have in Javascript to control the actions of visitors and define a behavior of the page when they occur.
+
+
 3. What is an event listener?
+Register an event to a specific object. The specific Object can be a simple element in a file, the same document, a window or an XMLHttpRequest.
+To register more than one eventListener, you can call addEventListener () for the same element but with different types of events or catch parameters.
+
+
 4. Why would we convert a NodeList into an Array?
+There are many ways to convert a NodeList to a JavaScript array but the fastest of all is a new method from ES6. In ES6, we can now simply create an Array from a NodeList using the Array.from() method. 
+This method is used to create a shallow-copied new Array instance from an array-like or iterable object. 
+
+
 5. What is a component?
+Is made of several parts: HTML, CSS, or JavaScript brought together for reuse in a website or application.
