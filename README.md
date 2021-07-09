@@ -30,15 +30,15 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Instructions
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to `http://localhost:3000`
-- [ ] In a separate terminal, run `npm test` to run tests.
+- [x] Navigate to the root of the project with your command line.
+- [x] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [x] Run `npm start` to compile the project and serve it.
+- [x] Navigate Chrome to `http://localhost:3000`
+- [x] In a separate terminal, run `npm test` to run tests.
 
 **Steps Required for MVP:**
 
-- [ ] Steps 1 and 2 are explained inside the `src/components/header.js` file.
+- [x] Steps 1 and 2 are explained inside the `src/components/header.js` file.
 - [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
 - [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
@@ -74,12 +74,10 @@ Events are the way we have in Javascript to control the actions of visitors and 
 
 3. What is an event listener?
 Register an event to a specific object. The specific Object can be a simple element in a file, the same document, a window or an XMLHttpRequest.
-To register more than one eventListener, you can call addEventListener () for the same element but with different types of events or catch parameters.
 
 
 4. Why would we convert a NodeList into an Array?
-There are many ways to convert a NodeList to a JavaScript array but the fastest of all is a new method from ES6. In ES6, we can now simply create an Array from a NodeList using the Array.from() method. 
-This method is used to create a shallow-copied new Array instance from an array-like or iterable object. 
+The NodeList is distinct from Array for performance reasons: browsers can implement NodeList under the hood however they like. Presumably, this means that queries like document.querySelectorAll can return a lightly wrapped internal data structure instead of marshalling to a JavaScript array. This could save a lot of copying and makes it easier to maintain a "live" NodeList that updates as the DOM changes.
 
 
 5. What is a component?
